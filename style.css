@@ -57,10 +57,17 @@ p {
 .kolomStop {
   clear:both;                   /* stop met floaten */
 
-.achtergrond {
+.eerste {
+  background-color:gray;
+  padding:20px;
+  border:solid 2px pink;
   
 }
-
+.twee{
+  background-color:grey;
+  padding:20px;
+  border:solid 2px pink;
+}
 }
 
 /* Opmaak voor alle pagina's */
@@ -83,6 +90,9 @@ a:hover {
     text-decoration: underline;
 }
 
+.achtergrondPlaatje {
+  background-image: url("afbeeldingen/boksen3.jpg");
+}
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
