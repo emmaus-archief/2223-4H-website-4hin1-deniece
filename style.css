@@ -74,6 +74,11 @@ p {
 }
 
 /* Opmaak voor alle pagina's */
+.vier{
+  background-color: lightslategray;
+  padding:20px;
+  border:solid 2px lightblue;
+}
 
 h1, h2, h3 {
       color: lightblue;
