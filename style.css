@@ -20,7 +20,11 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
-
+.bitjes{  
+background-color:lightslategray;
+  padding:20px;
+  border:solid 2px lightblue;
+}
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
