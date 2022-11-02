@@ -25,8 +25,13 @@ background-color:lightslategray;
   padding:20px;
   border:solid 2px lightblue;
 }
+.kolomLinks1{
+  float:left;
+  padding-right:15px;
+  width:30%;
+}
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 100%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
