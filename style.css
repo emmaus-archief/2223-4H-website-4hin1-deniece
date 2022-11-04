@@ -20,6 +20,11 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
+.kolomLinks2{
+  float:left;
+  padding-right:20px;
+  width:30%;
+}
 .bitjes{  
 background-color:lightslategray;
   padding:20px;
