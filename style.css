@@ -20,10 +20,20 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
+.beschermers{
+  background-color:lightslategray;
+  padding:20px;
+  border:solid 2px lightblue;
+}
+.bandages{
+  background-color:lightslategray;
+  padding:20px;
+  border:solid 2px lightblue;
+}
 .kolomLinks2{
   float:left;
   padding-right:20px;
-  width:30%;
+  width:25%;
 }
 .bitjes{  
 background-color:lightslategray;
