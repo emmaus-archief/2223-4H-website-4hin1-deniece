@@ -20,6 +20,11 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
+
+b {
+  font-weight: bold;
+  color: lightblue;
+}
 .beschermers{
   background-color:lightslategray;
   padding:20px;
@@ -118,7 +123,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: lightblue;
+    color: lightsteelblue;
     text-decoration: none;
 }
 
