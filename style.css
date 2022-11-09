@@ -98,6 +98,10 @@ p {
 }
 
 /* Opmaak voor alle pagina's */
+.kolomRechts {
+  float:left;
+  width: 60%;
+}
 .vier{
   background-color: lightslategray;
   padding:20px;
