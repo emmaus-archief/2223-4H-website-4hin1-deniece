@@ -57,7 +57,7 @@ Aan het einde van stap 5 heb je minimaal vier subpagina's met een goede indeling
 Aan het einde van stap 6 heb je minimaal vier subpagina's met teksten en plaatjes.
 
 ### Stap 7: Perfectioneren 
-- [ ] Je hebt slordigheden in de lay-out, kleuren en inhoud gerepareerd. 
+- [x] Je hebt slordigheden in de lay-out, kleuren en inhoud gerepareerd. 
 - [ ] Je hebt gezorgd dat je HTML en CSS goed leesbaar zijn (geen herhaling, uit logische onderdelen opgebouwd, inclusief commentaar, …)
 - [ ] Je hebt gecontroleerd of de lay-out werkt op een groter venster, een kleiner venster, een ander apparaat en andere browser. 
 

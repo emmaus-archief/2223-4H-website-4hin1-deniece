@@ -74,12 +74,16 @@ p {
 
 /* Indeling voor hoofd pagina */
 
+.lettertype{
+font-family: baskerville;
+}
 .kolomLinks {
   float:left;
   width:40%;
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
+  font-family: baskerville;
   float:left;
   width: 60%;
 }
