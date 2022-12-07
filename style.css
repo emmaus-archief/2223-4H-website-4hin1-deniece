@@ -51,7 +51,8 @@ background-color:lightslategray;
   width:30%;
 }
 .page {
-  width: 100%;                   /* vaste breedte van 700 pixels */
+  width: 70%;                   /* vaste breedte van 700 pixels */
+ min-width: 600px;
   margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
