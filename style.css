@@ -75,6 +75,7 @@ p {
 /* Indeling voor hoofd pagina */
 
 .lettertype{
+font-size:18px;
 font-family: baskerville;
 }
 .kolomLinks {
@@ -107,6 +108,10 @@ font-family: baskerville;
 }
 
 /* Opmaak voor alle pagina's */
+.lettertype{
+font-size:18px;
+font-family: baskerville;
+}
 .kolomRechts {
   float:left;
   width: 60%;
