@@ -20,7 +20,15 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
-
+.kolomLinks:hover{
+ transform:scale(1.2);
+}
+.kolomLinks2:hover{
+ transform:scale(1.2);
+}
+.imgbitjes:hover{
+ transform:scale(1.2);
+}
 b {
   font-weight: bold;
   color: lightblue;
@@ -39,16 +47,24 @@ b {
   float:left;
   padding-right:20px;
   width:25%;
+  transition: transform .2s; 
 }
 .bitjes{  
 background-color:lightslategray;
   padding:20px;
   border:solid 2px lightblue;
 }
-.kolomLinks1{
+.kolomLinks1,{
   float:left;
   padding-right:15px;
   width:30%;
+  transition: transform .2s;
+}
+.imgbitjes{
+  float:left;
+  padding-right:15px;
+  width:35%;
+  transition: transform .2s;
 }
 .page {
   width: 70%;                   /* vaste breedte van 700 pixels */
