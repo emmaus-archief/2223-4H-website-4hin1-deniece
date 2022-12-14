@@ -140,11 +140,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-.achtergrondPlaatje {
-  background-image: url("afbeeldingen/boksen3.jpg");
-}
-
 /* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;
