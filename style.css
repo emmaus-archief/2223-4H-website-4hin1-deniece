@@ -10,7 +10,14 @@
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: lightslategray;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  color: #303030;
+  height:100%;
+  padding:0;
+  background-image: url("https://www.vpro.nl/.imaging/mte/vpronl/opengraph/dam/vpronl/programmas/m/muhammad-ali/Muhammad-Ali_2021_04_VPRO-2.jpg/jcr:content/Muhammad-Ali_2021_04_VPRO%202.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* tekstkleur donkergrijs */
 }  
 
 body * {                          /* geldt voor alles in body */
@@ -21,26 +28,11 @@ body * {                          /* geldt voor alles in body */
 
 /* Indeling voor alle pagina's */
 .kolomGevecht:hover, .kolomHandschoen:hover, .imgbitjes:hover{
- transform:scale(1.2);
+ transform:scale(1.1);
 }
 b {
   font-weight: bold;
   color: lightblue;
-}
-.beschermers{
-  background-color:lightslategray;
-  padding:20px;
-  border:solid 2px lightblue;
-}
-.bandages{
-  background-color:lightslategray;
-  padding:20px;
-  border:solid 2px lightblue;
-}
-.bitjes{
-  background-color:lightslategray;
-  padding:20px;
-  border:solid 2px lightblue;
 }
 
 .kolomHandschoen{
@@ -81,16 +73,15 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 } 
 
 p {
-  margin: 10px 0px;
+  margin: 0px 0px;
+  margin-bottom:10px;
   text-align: justify;            /* tekst links en rechts uitvullen */
+  padding:10px;
 }
+
 
 /* Indeling voor hoofd pagina */
 
-.lettertype{
-font-size:18px;
-font-family: baskerville;
-}
 .kolomGevecht {
   float:left;
   width:40%;
@@ -104,36 +95,19 @@ font-family: baskerville;
 .kolomStop {
   clear:both;                   /* stop met floaten */
 }
-.eerste {
-  background-color:lightslategray;
-  padding:20px;
-  border:solid 2px lightblue;
-}
-.twee{
-  background-color:lightslategray;
-  padding:20px;
-  border:solid 2px lightblue;
-}
-.drie{
-  background-color:lightslategray;
-  padding:20px;
-  border:solid 2px lightblue;
-}
+
 
 /* Opmaak voor alle pagina's */
 .lettertype{
 font-size:18px;
 font-family: baskerville;
+  background-color:rgba(255,255,255,50%);
 }
 .kolomRechts {
   float:left;
   width: 60%;
 }
-.vier{
-  background-color: lightslategray;
-  padding:20px;
-  border:solid 2px lightblue;
-}
+
 
 h1, h2, h3 {
       color: lightblue;
@@ -142,6 +116,7 @@ h1, h2, h3 {
 .smalltext {
     text-align: center;
     font-size: 0.7em;
+  color:white;
 }
 
 a {
@@ -181,7 +156,6 @@ nav li a:hover {
   width: 100px;
   height: 40px;
 }
-
 nav li a.active {
   background-color: lightblue;
   border-radius: 15px;
