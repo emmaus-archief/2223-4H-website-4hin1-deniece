@@ -20,10 +20,10 @@ body * {                          /* geldt voor alles in body */
 }
 
 /* Indeling voor alle pagina's */
-.kolomLinks:hover{
+.kolomGevecht:hover{
  transform:scale(1.2);
 }
-.kolomLinks2:hover{
+.kolomHandschoen{
  transform:scale(1.2);
 }
 .imgbitjes:hover{
@@ -54,7 +54,7 @@ background-color:lightslategray;
   padding:20px;
   border:solid 2px lightblue;
 }
-.kolomLinks1,{
+.kolomHandschoen{
   float:left;
   padding-right:15px;
   width:30%;
@@ -95,7 +95,7 @@ p {
 font-size:18px;
 font-family: baskerville;
 }
-.kolomLinks {
+.kolomGevecht {
   float:left;
   width:40%;
   padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
@@ -179,7 +179,7 @@ nav li a {
 
 nav li a:hover {
   background-color: #3857b2;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 2px solid #3857b2;
   padding: 10px;
   width: 200px;
@@ -188,7 +188,7 @@ nav li a:hover {
 
 nav li a.active {
   background-color: lightblue;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 2px solid lightblue;
   padding: 10px;
   width: 200px;
